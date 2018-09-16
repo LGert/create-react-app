@@ -230,7 +230,7 @@ module.exports = {
                                         options: {
                                             modules: true,
                                             importLoaders: 1,
-                                            localIdentname: '[directory]__[filename]__[classname]'
+                                            localIdentname: '[name]__[local]__[hash:base64:5]'
                                         },
                                     },
                                     {

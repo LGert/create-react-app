@@ -243,7 +243,7 @@ module.exports = {
           },
             {
                 test: /\.s?css$/,
-                include[/\.module/],
+                include: [/\.module/],
                 loader: ExtractTextPlugin.extract(
                     Object.assign(
                         {
