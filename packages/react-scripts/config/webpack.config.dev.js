@@ -219,6 +219,9 @@ module.exports = {
                                 ],
                             }),
                     },
+                    //Support for CSS and SCSS modules
+                    // files with the name [name].module.s?css will be recognized as modules.
+                    // Normal .css or .scss will be recognized as global stylesheets. (see above)
                     {
                         test: /\.s?css$/,
                         include: [/\.module/],
